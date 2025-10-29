@@ -1,22 +1,6 @@
 {
-  "count": 4,
+  "count": 19,
   "departments": [
-    {
-      "_id": "68da4460282d4ed758c42bf7",
-      "name": "Computer Science and Engineering",
-      "category": "Engineering",
-      "createdAt": "2025-09-29T08:33:36.819Z",
-      "updatedAt": "2025-09-29T08:33:36.819Z",
-      "__v": 0
-    },
-    {
-      "_id": "68da44c7282d4ed758c42bfa",
-      "name": "Electrical Engineering",
-      "category": "Engineering",
-      "createdAt": "2025-09-29T08:35:19.304Z",
-      "updatedAt": "2025-09-29T08:35:19.304Z",
-      "__v": 0
-    },
     {
       "_id": "68da44e5282d4ed758c42bfc",
       "name": "Mathematics",
@@ -31,6 +15,142 @@
       "category": "Humanities",
       "createdAt": "2025-09-29T08:36:18.833Z",
       "updatedAt": "2025-09-29T08:36:18.833Z",
+      "__v": 0
+    },
+    {
+      "_id": "68ffbf76fd695d21589d3bbd",
+      "name": "Architecture",
+      "category": "Engineering",
+      "createdAt": "2025-10-27T18:52:38.377Z",
+      "updatedAt": "2025-10-27T18:52:38.377Z",
+      "__v": 0
+    },
+    {
+      "_id": "68ffbfccfd695d21589d3bc7",
+      "name": "CECASE",
+      "category": "Engineering",
+      "createdAt": "2025-10-27T18:54:04.482Z",
+      "updatedAt": "2025-10-27T18:54:04.482Z",
+      "__v": 0
+    },
+    {
+      "_id": "68ffbfe0fd695d21589d3bcd",
+      "name": "Chemical Engineering",
+      "category": "Engineering",
+      "createdAt": "2025-10-27T18:54:24.705Z",
+      "updatedAt": "2025-10-27T18:54:24.705Z",
+      "__v": 0
+    },
+    {
+      "_id": "68ffbfeefd695d21589d3bd3",
+      "name": "Chemistry",
+      "category": "Science",
+      "createdAt": "2025-10-27T18:54:38.399Z",
+      "updatedAt": "2025-10-27T18:54:38.399Z",
+      "__v": 0
+    },
+    {
+      "_id": "68ffbffbfd695d21589d3bd5",
+      "name": "Civil Engineering",
+      "category": "Engineering",
+      "createdAt": "2025-10-27T18:54:51.236Z",
+      "updatedAt": "2025-10-27T18:54:51.236Z",
+      "__v": 0
+    },
+    {
+      "_id": "68ffc005fd695d21589d3bd7",
+      "name": "Computer Applications",
+      "category": "Engineering",
+      "createdAt": "2025-10-27T18:55:01.262Z",
+      "updatedAt": "2025-10-27T18:55:01.262Z",
+      "__v": 0
+    },
+    {
+      "_id": "68ffc018fd695d21589d3bd9",
+      "name": "Computer Science and Engineering",
+      "category": "Engineering",
+      "createdAt": "2025-10-27T18:55:20.105Z",
+      "updatedAt": "2025-10-27T18:55:20.105Z",
+      "__v": 0
+    },
+    {
+      "_id": "68ffc03ffd695d21589d3be3",
+      "name": "Electrical and Electronics Engineering",
+      "category": "Engineering",
+      "createdAt": "2025-10-27T18:55:59.102Z",
+      "updatedAt": "2025-10-27T18:55:59.102Z",
+      "__v": 0
+    },
+    {
+      "_id": "68ffc051fd695d21589d3be5",
+      "name": "Electronics and Communication Engineering",
+      "category": "Engineering",
+      "createdAt": "2025-10-27T18:56:17.930Z",
+      "updatedAt": "2025-10-27T18:56:17.930Z",
+      "__v": 0
+    },
+    {
+      "_id": "68ffc06bfd695d21589d3beb",
+      "name": "Energy and Environment",
+      "category": "Engineering",
+      "createdAt": "2025-10-27T18:56:43.573Z",
+      "updatedAt": "2025-10-27T18:56:43.573Z",
+      "__v": 0
+    },
+    {
+      "_id": "68ffc097fd695d21589d3bed",
+      "name": "Humanities and Social Sciences",
+      "category": "Humanities",
+      "createdAt": "2025-10-27T18:57:27.872Z",
+      "updatedAt": "2025-10-27T18:57:27.872Z",
+      "__v": 0
+    },
+    {
+      "_id": "68ffc0b2fd695d21589d3bf3",
+      "name": "Istrumentation and Control Engineering",
+      "category": "Engineering",
+      "createdAt": "2025-10-27T18:57:54.971Z",
+      "updatedAt": "2025-10-27T18:57:54.971Z",
+      "__v": 0
+    },
+    {
+      "_id": "68ffc0e6fd695d21589d3bfc",
+      "name": "MBA",
+      "category": "Social Science",
+      "createdAt": "2025-10-27T18:58:46.198Z",
+      "updatedAt": "2025-10-27T18:58:46.198Z",
+      "__v": 0
+    },
+    {
+      "_id": "68ffc0f6fd695d21589d3c02",
+      "name": "Mechanical Engineering",
+      "category": "Engineering",
+      "createdAt": "2025-10-27T18:59:02.894Z",
+      "updatedAt": "2025-10-27T18:59:02.894Z",
+      "__v": 0
+    },
+    {
+      "_id": "68ffc12afd695d21589d3c12",
+      "name": "Physics",
+      "category": "Science",
+      "createdAt": "2025-10-27T18:59:54.603Z",
+      "updatedAt": "2025-10-27T18:59:54.603Z",
+      "__v": 0
+    },
+    {
+      "_id": "68ffc176fd695d21589d3c1c",
+      "name": "Metallurgical and Materials Engineering",
+      "category": "Engineering",
+      "createdAt": "2025-10-27T19:01:10.097Z",
+      "updatedAt": "2025-10-27T19:01:10.097Z",
+      "__v": 0
+    },
+    {
+      "_id": "68ffc17dfd695d21589d3c1e",
+      "name": "Production Engineering",
+      "category": "Engineering",
+      "createdAt": "2025-10-27T19:01:17.251Z",
+      "updatedAt": "2025-10-27T19:01:17.251Z",
       "__v": 0
     }
   ]
