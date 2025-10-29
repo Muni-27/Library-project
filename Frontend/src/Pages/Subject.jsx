@@ -78,7 +78,7 @@ const Subject = () => {
                   ? `/view/subject/${s._id}`
                   : `/view/subject/${s._id}/theses`
               }
-              className="text-indigo-700 underline hover:text-red-500"
+              className="text-indigo-700 underline hover:text-red-500 transition-all"
             >
               {s.name} ({thesisCounts[s._id] || 0})
             </Link>

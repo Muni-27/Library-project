@@ -49,14 +49,14 @@ const ThesisType = () => {
         </div>
         
         <h2 className="font-semibold text-lg text-gray-600 mb-2 text-center">Browse by Thesis Type</h2>
-        <p className="text-sm font-[400] mb-2">Please select a value to browse from the list below.</p>
+        <p className="text-sm font-400 mb-2">Please select a value to browse from the list below.</p>
 
         <div className="flex flex-col ml-5">
           <ul className="space-y-1 text-left">
             {thesisTypes.map(type => (
               <li key={type} className="list-disc list-inside text-sm">
                 <Link 
-                  to={`/view/thesis_type/${type}`} 
+                  to={`/view/thesis_type/${type}`}
                   className="text-indigo-700 underline hover:text-red-500"
                 >
                   {type} ({getThesisTypeCount(type)})

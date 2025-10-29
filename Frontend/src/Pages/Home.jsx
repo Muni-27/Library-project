@@ -5,7 +5,7 @@ import icon from '../assets/icon.png'
 const Home = () => {
   return (
     <div>
-        <div>
+      <div>
         <div className='flex justify-center items-center font-bold text-gray-600 text-lg mb-2'>Welcome to ethesis</div>
         <div className=' flex justify-center items-center gap-2'>
           <div className='flex items-center'><img src={icon} alt="icon.png" className='size-4 mx-0.5' /><p className='text-s text-gray-500'>Atom</p></div>
@@ -20,7 +20,7 @@ const Home = () => {
                 <div>Instructions_ to_ upload thesis are here. Please read before uploading yours</div>
               </div>
               <div className='bg-indigo-100  p-2 mb-3'>
-                <div>ethesis@nitr is indexed by:</div>
+                <div>ethesis@nitt is indexed by:</div>
                 <div className='flex flex-col'>
                   <a href="/" className='text-indigo-700 underline py-1'>Google</a>
                   <a href="/" className='text-indigo-700 underline py-1'>OAIster</a>
@@ -36,14 +36,14 @@ const Home = () => {
             </div>
             <div className='flex flex-col w-3xs p-1 text-xs border-y'>
               <div className='pt-6'>
-                <div className='bg-indigo-100 px-2 pt-4'><b>ethesis@nitr</b> is the official institutional Open Access theses repository of <a href="/" className='text-indigo-700 underline'>National Institute of Technology Rourkela</a>. Here all theses produced by students as a partial fulfillment of degree are uploaded. For more details: <a href="/" className='text-indigo-700 underline'>more</a></div>
-                <div className='bg-indigo-100 px-2 pb-4 pt-3 mb-3'>For other institutional Open Access scientific outputs (Journal Papers, Conference Papers etc.) of NITR visit <a href="/" className='text-indigo-700 underline'>dspace@nitr</a></div>
+                <div className='bg-indigo-100 px-2 pt-4'><b>ethesis@nitt</b> is the official institutional Open Access theses repository of <a href="/" className='text-indigo-700 underline'>National Institute of Technology Tiruchirappalli</a>. Here all theses produced by students as a partial fulfillment of degree are uploaded. For more details: <a href="/" className='text-indigo-700 underline'>more</a></div>
+                <div className='bg-indigo-100 px-2 pb-4 pt-3 mb-3'>For other institutional Open Access scientific outputs (Journal Papers, Conference Papers etc.) of NITT visit <a href="/" className='text-indigo-700 underline'>dspace@nitt</a></div>
               </div>
               <div className='bg-indigo-100 px-2 py-2 pb-5'>
                 <div className='mb-2'>For queries:</div>
                 <div>Mrs. P. Mishra</div>
-                <div className='mb-2'>Biju Patnaik Central Library, NITR</div>
-                <div>Email:<a href='/' className='text-indigo-700 underline'>bpcl-dig@nitrkl.ac.in</a></div>
+                <div className='mb-2'>Biju Patnaik Central Library, NITT</div>
+                <div>Email:<a href='/' className='text-indigo-700 underline'>bpcl-dig@nitt.ac.in</a></div>
               </div>
             </div>
             <div className='flex flex-col border w-3xs p-1'>
