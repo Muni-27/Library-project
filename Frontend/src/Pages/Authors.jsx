@@ -53,7 +53,7 @@ const Authors = () => {
               <li key={author._id} className="list-disc list-inside text-sm">
                 <Link 
                   to={`/view/author/${author._id}`} 
-                  className="text-indigo-700 underline"
+                  className="text-indigo-700 underline hover:text-red-500"
                 >
                   {author.name} ({getAuthorCount(author._id)})
                 </Link>

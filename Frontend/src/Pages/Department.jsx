@@ -89,7 +89,7 @@ const Department = () => {
                     <li key={dept._id} className="list-disc list-inside text-sm">
                       <Link 
                         to={`/view/dept/${dept._id}/years`} 
-                        className="text-indigo-700 underline text-sm"
+                        className="text-indigo-700 underline text-sm hover:text-red-500"
                       >
                         Department of {dept.name} ({getDepartmentCount(dept._id)})
                       </Link>

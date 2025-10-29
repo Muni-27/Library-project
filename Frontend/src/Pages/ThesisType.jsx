@@ -57,7 +57,7 @@ const ThesisType = () => {
               <li key={type} className="list-disc list-inside text-sm">
                 <Link 
                   to={`/view/thesis_type/${type}`} 
-                  className="text-indigo-700 underline"
+                  className="text-indigo-700 underline hover:text-red-500"
                 >
                   {type} ({getThesisTypeCount(type)})
                 </Link>

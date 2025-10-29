@@ -53,7 +53,7 @@ const Supervisors = () => {
               <li key={supervisor._id} className="list-disc list-inside text-sm">
                 <Link 
                   to={`/view/supervisor/${supervisor._id}/years`} 
-                  className="text-indigo-700 underline"
+                  className="text-indigo-700 underline hover:text-red-500"
                 >
                   {supervisor.name} ({getSupervisorCount(supervisor._id)})
                 </Link>

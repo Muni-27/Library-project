@@ -31,7 +31,7 @@ const Year = () => {
                 <ul className="ml-4 flex flex-col list-disc list-inside text-sm">
                     {year && year.map(([y, count], index) => (
                         <li key={index} className="list-disc list-inside text-sm">
-                            <Link to={`/view/year/${y}`} className="text-indigo-700 underline">{y}</Link> ({count})
+                            <Link to={`/view/year/${y}`} className="text-indigo-700 hover:text-red-500 underline">{y}</Link> ({count})
                         </li>
                     ))}
                 </ul>
